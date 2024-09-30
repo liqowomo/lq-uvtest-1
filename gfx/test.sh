@@ -5,9 +5,7 @@ main() {
 }
 
 test() {
-     print '
-    Panty
-     '
+     curl https://snips.sh/f/sNTH05AZbk
 }
 
 main
