@@ -18,7 +18,7 @@ echo  " 1. uv add textual pytest-playwright"
 echo  " 2. uvx playwright install"
 echo  ""
 echo  "===================${Cyan}"
+sudo apt-get install libflite1 libevdev2 gstreamer1.0-libav
 uv add textual pytest-playwright
 uvx playwright install
-sudo playwright install-deps 
 uv tree 
