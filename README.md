@@ -13,4 +13,5 @@
 
 # Questions
 
-1. Regarding make files
+1. Regarding make files and behavior
+   1. This is regarding the installation of several packages that require uvx , you will need some sort of bash file or make file for this
