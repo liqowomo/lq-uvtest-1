@@ -6,11 +6,9 @@ starship init fish | source
 # --- This section is for fish --- #
 
 # This is the exa command
-alias e="exa -labBghHimnSuU --git --icons --octal-permissions --icons --color-scale --color=always --group-directories-first"
+alias e="eza -lahMuo --icons --group-directories-first --total-size --git --time-style=long-iso --color=always --color-scale"
 
 # Command Aliases
-alias e="exa -labBghH --git --octal-permissions --icons --color-scale --color=always --group-directories-first"
-alias el="exa -labBghHimnSuU --git -@ --octal-permissions --icons --color-scale --color=always --group-directories-first"
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 
 # Github aliases
