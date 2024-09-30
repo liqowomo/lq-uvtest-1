@@ -18,8 +18,7 @@ echo  " 1. uv add textual pytest-playwright"
 echo  " 2. uvx playwright install"
 echo  ""
 echo  "===================${Cyan}"
-sudo playwright install-deps 
 uv add textual pytest-playwright
-sudo playwright install-deps 
 uvx playwright install
+sudo playwright install-deps 
 uv tree 
