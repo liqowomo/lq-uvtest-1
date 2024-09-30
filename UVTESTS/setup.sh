@@ -42,4 +42,5 @@ uvx playwright install
 uv tree 
 }
 
-# Main
+# Main Funtion 
+main
