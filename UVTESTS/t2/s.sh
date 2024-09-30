@@ -1,8 +1,8 @@
 #!/usr/bin/env sh 
 
 # Setting the color varibales 
-Cyan="\033[36m"
-Magenta="\033[35m"
+Cyan="\e[36;49m"
+Magenta="\e[35;49m
 
 # Check for command
 if ! command -v uv &> /dev/null; then
@@ -12,13 +12,14 @@ if ! command -v uv &> /dev/null; then
 fi
 echo ""
 echo ""
-echo  "${Magenta}==================="
-echo  " Testing out the installs of UV Related"
-echo  " 1. uv add textual pytest-playwright"
-echo  " 2. uvx playwright install"
-echo  ""
-echo  "===================${Cyan}"
-sudo apt-get install libflite1 libevdev2 gstreamer1.0-libav
-uv add textual pytest-playwright
+echo  -e "${Magenta}==================="
+echo  -e " Testing out the installs of UV Related"
+echo  -e " 1. uv add textual pytest-playwright"
+echo  -e " 2. uvx playwright install"
+echo  -e ""
+echo  -e "===================${Cyan}"
+echo  -e""
+sudo apt-get install libflite1 libevdev2 gstreamer1.0-libav -y
+uv add textual pytest-playwright 
 uvx playwright install
 uv tree 
