@@ -5,7 +5,9 @@ main() {
 }
 
 test() {
-     echo "test"
+     print '
+    Panty
+     '
 }
 
 main
